@@ -1,0 +1,21 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{fontspec}
+\setmainfont{Fira Sans}
+\usepackage{default}
+\title{Outils spatiaux pour partitions interactives}
+\author{Jean-Michaël Celerier}
+
+\begin{document}
+\begin{frame}
+    \centering
+    \maketitle
+\end{frame}
+
+\section{Problématique}
+\begin{frame}
+    \frametitle{Problématique}
+    test
+\end{frame}
+\end{document}
