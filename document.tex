@@ -23,7 +23,7 @@
 
 \section{Problématique}
 \begin{frame}
-    \frametitle{Problématique}
+    \frametitle{}
     \centering\Large
     Mais d'abord, qu'est-ce qu'un espace ?~\\
     \vspace{2cm}
@@ -34,16 +34,16 @@
     \frametitle{Problématique}
     \Large
     \begin{itemize}
-        \item Définir des scénarios interactifs contenant des éléments spatiaux.
-        \item Gérer des comportements multidimensionnels dans le temps.
-        \item Problématique de l'UI d'écriture.
+        \item Comment définir des scénarios interactifs contenant des éléments spatiaux.
+        \item Comment gérer des comportements multidimensionnels dans le temps.
+        \item ()UI d'écriture.
     \end{itemize}
-    
+    ~\\
     Objectif : 
     
     \begin{itemize}
-        \item Décrire des interactions à plus d'une dimension de manière intégrée.
-        \item Exemple : muséographie, contrôle de robots, jeux vidéos, musique spatialisée, \dots
+        \item Scénariser des interactions à plus d'une dimension.
+        \item Exemple : \textbf{muséographie}, \textbf{contrôle de robots}, jeux vidéos, musique spatialisée\dots
     \end{itemize}
     
 \end{frame}
@@ -53,9 +53,9 @@
     \frametitle{Approche}
     \Large
     \begin{itemize}
-        \item Approche déclarative.
+        \item Approche \textbf{déclarative}.
         \item Généralisation puis réduction : 
-        \item Implémentation dans cas générique : forme cartésienne.
+        \item Implémentation dans cas générique : forme cartésienne calculée par un CAS.
         \item Implémentations optimisées dans cas courants (OO). 
         \item Alternative : Constructive Solid Geometry.
     \end{itemize}
@@ -64,7 +64,7 @@
 %TODO montrer l'équation d'un cercle, mais aussi dans un espace
 
 \begin{frame}
-    \frametitle{Définition (1)}\Large
+    \frametitle{Définition (Espace)}\Large
     \begin{itemize}
         \item On crée d'abord un espace : nombre de dimensions, bornes, granularité.
     \end{itemize}
@@ -78,19 +78,19 @@
 \end{frame}
 
 \begin{frame}[fragile]
-    \frametitle{Définition (2)}\Large
+    \frametitle{Définition (Zone)}\Large
     \begin{itemize}
-        \item On définit des zones en donnant un ensemble d'équations cartésiennes qui les définissent.
+        \item On définit des zones en donnant un ensemble d'\textbf{équations cartésiennes} qui les définissent.
         \item On sépare les variables en deux groupes : variables d'espace et paramètres.
-        \item Transformations : échelle, rotation, translation.
-        \item Fonctions autorisées : admissibles dans solutions en forme close ($\sin x, \cosh x, \ln x, \sqrt x, \dots)$. Pas d'$\int$.
+        \item \textbf{Transformations} : échelle, rotation, translation.
+        \item Fonctions autorisées : admissibles dans solutions en \textbf{forme close} ($\sin x, \cosh x, \ln x, \sqrt x, \dots)$. Pas d'$\int$.
         \item Paramètres des zones : peuvent être des constantes ou bien des adresses OSC.
     \end{itemize}
     
 \end{frame}
 
 \begin{frame}[fragile]
-    \frametitle{Définition (2)}\Large
+    \frametitle{Définition (Zone)}\Large
     Ex. : 
     
     \begin{lstlisting}[columns=fullflexible]
@@ -106,31 +106,35 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Définition (3)}\Large
+    \frametitle{Définition (Calculs et exécution)}\Large
     \begin{itemize}
         \item On définit des calculs et relations qui vont être évaluées entre zones.
-        \item Actuellement : collision, distance (des barycentres). 
-        \item À terme : pouvoir là aussi spécifier des formules.
-        %TODO a1.x, a2.r ?
-        %TODO METTRE  SCHEMA : passage 
-    \end{itemize}
-    ~\\
-    Sémantique d'exécution : 
-    \begin{itemize}
-        \item On suit celle d'i-score : au tick.
-        \item Utilisation récursive des résultats : décalage d'un tick.
+        \item Actuellement : \textbf{collision}, \textbf{distance} (des barycentres). 
+        \item À terme : pouvoir là aussi spécifier des formules (nécessite l'accès aux variables des zones).
     \end{itemize}
 \end{frame}
 
+    \begin{frame}
+        \frametitle{Définition (Exécution)}\Large
+        \vspace{1em}
+        Sémantique d'exécution : 
+        \begin{itemize}
+            \item On suit celle d'i-score : au tick.
+            \item \textbf{Utilisation récursive} des résultats : décalage d'un tick.
+        \end{itemize}
+        
+        \begin{figure}
+            \includegraphics[width=\textwidth]{images/exec.eps}
+            \caption{Flot de calcul à l'exécution}
+        \end{figure}
+    \end{frame}
     
-    % TODO schéma contenu d'un tick : -> réception OSC, application aux zones, réalisation des calculs, écriture OSC
-
 \begin{frame}
     \frametitle{Visualisation}
     \Large
     \begin{itemize}
         \item Actuellement, seulement 2D.
-        \item Passage à la 3D : VTK? Qt3D?
+        \item Passage à la 3D : \textbf{VTK}? \textbf{Qt3D}?
         Pour zones génériques : triangulation (Delaunay).
         \item Passage en $n$ dim : par restriction à des sous espaces.
         \item À faire sur GPU pour cas général.
@@ -141,8 +145,8 @@
 \begin{frame}
     \frametitle{Automations 3D}\Large
     \begin{itemize}
-        \item Standard : équation paramétrique. Comme IanniX, OpenMusic...
-        \item Courbe : parcourue dans son intégralité durant une contrainte temporelle.
+        \item Standard : équation paramétrique. Comme \textbf{IanniX}, \textbf{OpenMusic}...
+        \item Exécution : courbe parcourue dans son intégralité durant une contrainte temporelle.
     \end{itemize}
     \begin{figure}
         \centering
@@ -161,19 +165,20 @@
     \frametitle{Conclusion}
     \Large
     \begin{itemize}
-        \item Présentation d'un modèle de définition d'objets spatiaux dans i-score.
-        \item Géométries dynamiques.
-        \item Problème : représentation disjointe d'un seul espace ? 
-        \item Problème : représentation plus propre des ouverts ?
+        \item Présentation d'un modèle de définition d'\textbf{objets spatiaux} dans i-score.
+        \item Géométries \textbf{dynamiques}.
+        \item Splines paramétriques traditionnelles sont présentes aussi.
+        \item \textbf{Problème} : représentation disjointe d'un seul espace ? 
+        \item \textbf{Problème} : représentation plus propre des ouverts ?
+        \item \textbf{Problème} : Écriture de scénarios spatiaux contraints : analogue d'i-score dans plus que 1D.
     \end{itemize}
 \end{frame}
 \begin{frame}
     \frametitle{Perspectives}
     \Large
     \begin{itemize}
-        \item Écriture de scénarios spatiaux contraints : analogue d'i-score dans plus que 1D.
         \item Généraliser les deux en une méthode permettant d'étendre la notion de scénario interactif à des flux multi-dimensionnels.
-        \item Actuellement, c'est fait... à la main dans i-score.
+        $\rightarrow$ Actuellement, le lien est fait à la main dans i-score.
         \item Notion d'abstraction dans i-score : patch ?
         \item Compiler à la volée pour exec. plus rapide ? (Actuellement : \texttt{vtkFunctionParser}).
     \end{itemize}
