@@ -1,0 +1,1283 @@
+{
+    "Document": {
+        "BaseScenario": {
+            "Constraint": {
+                "DefaultDuration": 30000,
+                "EndState": 1,
+                "ExecutionSpeed": 1,
+                "FullView": {
+                    "CenterOn": [
+                        618,
+                        521
+                    ],
+                    "ConstraintId": 0,
+                    "ObjectName": "FullViewConstraintViewModel",
+                    "ShownRack": 1,
+                    "Zoom": 26.073829672242301,
+                    "id": 0
+                },
+                "HeightPercentage": 0,
+                "Looping": false,
+                "MaxDuration": 30000,
+                "MaxInf": false,
+                "Metadata": {
+                    "Color": "Transparent1",
+                    "Comment": "",
+                    "Label": "",
+                    "ScriptingName": "Untitled.ambiency31prescout16"
+                },
+                "MinDuration": 30000,
+                "MinNull": false,
+                "ObjectName": "Scenario::ConstraintModel",
+                "PluginsMetadata": [
+                ],
+                "Processes": [
+                    {
+                        "Comments": [
+                        ],
+                        "Constraints": [
+                            {
+                                "DefaultDuration": 1851.2419067292033,
+                                "EndState": 2,
+                                "ExecutionSpeed": 1,
+                                "FullView": {
+                                    "CenterOn": [
+                                        0,
+                                        0
+                                    ],
+                                    "ConstraintId": 1,
+                                    "ObjectName": "FullViewConstraintViewModel",
+                                    "ShownRack": "none",
+                                    "Zoom": -1,
+                                    "id": 2
+                                },
+                                "HeightPercentage": 0.071476285905143627,
+                                "Looping": false,
+                                "MaxDuration": 1851.2419067292033,
+                                "MaxInf": false,
+                                "Metadata": {
+                                    "Color": "Transparent1",
+                                    "Comment": "",
+                                    "Label": "",
+                                    "ScriptingName": "simblin64wingless59"
+                                },
+                                "MinDuration": 1851.2419067292033,
+                                "MinNull": false,
+                                "ObjectName": "Scenario::ConstraintModel",
+                                "PluginsMetadata": [
+                                ],
+                                "Processes": [
+                                ],
+                                "Rackes": [
+                                ],
+                                "Rigidity": true,
+                                "StartDate": 0,
+                                "StartState": 1,
+                                "id": 1
+                            },
+                            {
+                                "DefaultDuration": 10716.343995291585,
+                                "EndState": 4,
+                                "ExecutionSpeed": 1,
+                                "FullView": {
+                                    "CenterOn": [
+                                        0,
+                                        0
+                                    ],
+                                    "ConstraintId": 2,
+                                    "ObjectName": "FullViewConstraintViewModel",
+                                    "ShownRack": 1,
+                                    "Zoom": -1,
+                                    "id": 3
+                                },
+                                "HeightPercentage": 0.11690046760187041,
+                                "Looping": false,
+                                "MaxDuration": 10716.343995291585,
+                                "MaxInf": false,
+                                "Metadata": {
+                                    "Color": "Transparent1",
+                                    "Comment": "",
+                                    "Label": "",
+                                    "ScriptingName": ""
+                                },
+                                "MinDuration": 10716.343995291585,
+                                "MinNull": false,
+                                "ObjectName": "Scenario::ConstraintModel",
+                                "PluginsMetadata": [
+                                ],
+                                "Processes": [
+                                    {
+                                        "Areas": [
+                                            {
+                                                "CurrentParamMap": [
+                                                ],
+                                                "Formula": [
+                                                    "x * x < sin(y)"
+                                                ],
+                                                "ObjectName": "Space::AreaModel",
+                                                "ParameterMap": [
+                                                ],
+                                                "SpaceMap": [
+                                                    {
+                                                        "k": 0,
+                                                        "v": "x"
+                                                    },
+                                                    {
+                                                        "k": 1,
+                                                        "v": "y"
+                                                    }
+                                                ],
+                                                "Transform": [
+                                                    1,
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    1,
+                                                    0,
+                                                    69.586374695863753,
+                                                    4.0816326530612059,
+                                                    1
+                                                ],
+                                                "id": 1,
+                                                "uuid": "ac867755-9c5c-472b-848f-a9826b239648"
+                                            },
+                                            {
+                                                "CurrentParamMap": [
+                                                ],
+                                                "Formula": [
+                                                    "x < y * sin(y)"
+                                                ],
+                                                "ObjectName": "Space::AreaModel",
+                                                "ParameterMap": [
+                                                ],
+                                                "SpaceMap": [
+                                                    {
+                                                        "k": 0,
+                                                        "v": "x"
+                                                    },
+                                                    {
+                                                        "k": 1,
+                                                        "v": "y"
+                                                    }
+                                                ],
+                                                "Transform": [
+                                                    1,
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    1,
+                                                    0,
+                                                    -56.934306569350966,
+                                                    1.3605442176967131,
+                                                    1
+                                                ],
+                                                "id": 2,
+                                                "uuid": "ac867755-9c5c-472b-848f-a9826b239648"
+                                            },
+                                            {
+                                                "CurrentParamMap": [
+                                                    {
+                                                        "k": "r",
+                                                        "v": 15
+                                                    },
+                                                    {
+                                                        "k": "x0",
+                                                        "v": 0
+                                                    },
+                                                    {
+                                                        "k": "y0",
+                                                        "v": 0
+                                                    }
+                                                ],
+                                                "Formula": [
+                                                    "(xv-x0)^2 + (yv-y0)^2 <= r^2"
+                                                ],
+                                                "ObjectName": "Space::AreaModel",
+                                                "ParameterMap": [
+                                                    {
+                                                        "k": "r",
+                                                        "v": {
+                                                            "Address": {
+                                                                "Device": "",
+                                                                "Path": ""
+                                                            },
+                                                            "ClipMode": "Clip",
+                                                            "Domain": {
+                                                                "Max": null,
+                                                                "Min": null,
+                                                                "Values": [
+                                                                ]
+                                                            },
+                                                            "Priority": 0,
+                                                            "RefreshRate": 0,
+                                                            "RepetitionFilter": false,
+                                                            "Tags": [
+                                                            ],
+                                                            "Type": "Float",
+                                                            "Unit": "",
+                                                            "Value": 15,
+                                                            "ioType": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "k": "x0",
+                                                        "v": {
+                                                            "Address": {
+                                                                "Device": "",
+                                                                "Path": ""
+                                                            },
+                                                            "ClipMode": "Clip",
+                                                            "Domain": {
+                                                                "Max": null,
+                                                                "Min": null,
+                                                                "Values": [
+                                                                ]
+                                                            },
+                                                            "Priority": 0,
+                                                            "RefreshRate": 0,
+                                                            "RepetitionFilter": false,
+                                                            "Tags": [
+                                                            ],
+                                                            "Type": "Float",
+                                                            "Unit": "",
+                                                            "Value": 0,
+                                                            "ioType": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "k": "y0",
+                                                        "v": {
+                                                            "Address": {
+                                                                "Device": "",
+                                                                "Path": ""
+                                                            },
+                                                            "ClipMode": "Clip",
+                                                            "Domain": {
+                                                                "Max": null,
+                                                                "Min": null,
+                                                                "Values": [
+                                                                ]
+                                                            },
+                                                            "Priority": 0,
+                                                            "RefreshRate": 0,
+                                                            "RepetitionFilter": false,
+                                                            "Tags": [
+                                                            ],
+                                                            "Type": "Float",
+                                                            "Unit": "",
+                                                            "Value": 0,
+                                                            "ioType": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "SpaceMap": [
+                                                    {
+                                                        "k": 0,
+                                                        "v": "xv"
+                                                    },
+                                                    {
+                                                        "k": 1,
+                                                        "v": "yv"
+                                                    }
+                                                ],
+                                                "Transform": [
+                                                    1,
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    1,
+                                                    0,
+                                                    0,
+                                                    -14.285714285714306,
+                                                    1
+                                                ],
+                                                "id": 3,
+                                                "uuid": "f7235762-661b-4f0e-a5e6-b95afbd86458"
+                                            },
+                                            {
+                                                "CurrentParamMap": [
+                                                    {
+                                                        "k": "h",
+                                                        "v": 20
+                                                    },
+                                                    {
+                                                        "k": "w",
+                                                        "v": 30
+                                                    },
+                                                    {
+                                                        "k": "x0",
+                                                        "v": 0
+                                                    },
+                                                    {
+                                                        "k": "y0",
+                                                        "v": 0
+                                                    }
+                                                ],
+                                                "Formula": [
+                                                    " xv >= x0; xv <= x0 + w; yv >= y0; yv <= y0 + h"
+                                                ],
+                                                "ObjectName": "Space::AreaModel",
+                                                "ParameterMap": [
+                                                    {
+                                                        "k": "h",
+                                                        "v": {
+                                                            "Address": {
+                                                                "Device": "",
+                                                                "Path": ""
+                                                            },
+                                                            "ClipMode": "Clip",
+                                                            "Domain": {
+                                                                "Max": null,
+                                                                "Min": null,
+                                                                "Values": [
+                                                                ]
+                                                            },
+                                                            "Priority": 0,
+                                                            "RefreshRate": 0,
+                                                            "RepetitionFilter": false,
+                                                            "Tags": [
+                                                            ],
+                                                            "Type": "Float",
+                                                            "Unit": "",
+                                                            "Value": 20,
+                                                            "ioType": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "k": "w",
+                                                        "v": {
+                                                            "Address": {
+                                                                "Device": "",
+                                                                "Path": ""
+                                                            },
+                                                            "ClipMode": "Clip",
+                                                            "Domain": {
+                                                                "Max": null,
+                                                                "Min": null,
+                                                                "Values": [
+                                                                ]
+                                                            },
+                                                            "Priority": 0,
+                                                            "RefreshRate": 0,
+                                                            "RepetitionFilter": false,
+                                                            "Tags": [
+                                                            ],
+                                                            "Type": "Float",
+                                                            "Unit": "",
+                                                            "Value": 30,
+                                                            "ioType": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "k": "x0",
+                                                        "v": {
+                                                            "Address": {
+                                                                "Device": "",
+                                                                "Path": ""
+                                                            },
+                                                            "ClipMode": "Clip",
+                                                            "Domain": {
+                                                                "Max": null,
+                                                                "Min": null,
+                                                                "Values": [
+                                                                ]
+                                                            },
+                                                            "Priority": 0,
+                                                            "RefreshRate": 0,
+                                                            "RepetitionFilter": false,
+                                                            "Tags": [
+                                                            ],
+                                                            "Type": "Float",
+                                                            "Unit": "",
+                                                            "Value": 0,
+                                                            "ioType": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "k": "y0",
+                                                        "v": {
+                                                            "Address": {
+                                                                "Device": "",
+                                                                "Path": ""
+                                                            },
+                                                            "ClipMode": "Clip",
+                                                            "Domain": {
+                                                                "Max": null,
+                                                                "Min": null,
+                                                                "Values": [
+                                                                ]
+                                                            },
+                                                            "Priority": 0,
+                                                            "RefreshRate": 0,
+                                                            "RepetitionFilter": false,
+                                                            "Tags": [
+                                                            ],
+                                                            "Type": "Float",
+                                                            "Unit": "",
+                                                            "Value": 0,
+                                                            "ioType": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "SpaceMap": [
+                                                    {
+                                                        "k": 0,
+                                                        "v": "xv"
+                                                    },
+                                                    {
+                                                        "k": 1,
+                                                        "v": "yv"
+                                                    }
+                                                ],
+                                                "Transform": [
+                                                    1,
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    1,
+                                                    0,
+                                                    18.491484184914839,
+                                                    38.775510204081627,
+                                                    1
+                                                ],
+                                                "id": 4,
+                                                "uuid": "7ba287e8-65e8-42b9-bce0-2f9ab52bef42"
+                                            },
+                                            {
+                                                "CurrentParamMap": [
+                                                    {
+                                                        "k": "x0",
+                                                        "v": 0
+                                                    },
+                                                    {
+                                                        "k": "y0",
+                                                        "v": 0
+                                                    }
+                                                ],
+                                                "Formula": [
+                                                    "xv == x0",
+                                                    "yv == y0"
+                                                ],
+                                                "ObjectName": "Space::AreaModel",
+                                                "ParameterMap": [
+                                                    {
+                                                        "k": "x0",
+                                                        "v": {
+                                                            "Address": {
+                                                                "Device": "",
+                                                                "Path": ""
+                                                            },
+                                                            "ClipMode": "Clip",
+                                                            "Domain": {
+                                                                "Max": null,
+                                                                "Min": null,
+                                                                "Values": [
+                                                                ]
+                                                            },
+                                                            "Priority": 0,
+                                                            "RefreshRate": 0,
+                                                            "RepetitionFilter": false,
+                                                            "Tags": [
+                                                            ],
+                                                            "Type": "Float",
+                                                            "Unit": "",
+                                                            "Value": 0,
+                                                            "ioType": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "k": "y0",
+                                                        "v": {
+                                                            "Address": {
+                                                                "Device": "",
+                                                                "Path": ""
+                                                            },
+                                                            "ClipMode": "Clip",
+                                                            "Domain": {
+                                                                "Max": null,
+                                                                "Min": null,
+                                                                "Values": [
+                                                                ]
+                                                            },
+                                                            "Priority": 0,
+                                                            "RefreshRate": 0,
+                                                            "RepetitionFilter": false,
+                                                            "Tags": [
+                                                            ],
+                                                            "Type": "Float",
+                                                            "Unit": "",
+                                                            "Value": 0,
+                                                            "ioType": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "SpaceMap": [
+                                                    {
+                                                        "k": 0,
+                                                        "v": "xv"
+                                                    },
+                                                    {
+                                                        "k": 1,
+                                                        "v": "yv"
+                                                    }
+                                                ],
+                                                "Transform": [
+                                                    1,
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    1,
+                                                    0,
+                                                    33.090024330900235,
+                                                    -30.612244897959187,
+                                                    1
+                                                ],
+                                                "id": 5,
+                                                "uuid": "d407b641-4d0a-4769-8eb6-59a59c9c6a66"
+                                            }
+                                        ],
+                                        "Computations": [
+                                        ],
+                                        "Duration": 10716.343995291585,
+                                        "Metadata": {
+                                            "Color": "",
+                                            "Comment": "",
+                                            "Label": "",
+                                            "ScriptingName": "Space.1"
+                                        },
+                                        "ObjectName": "Space",
+                                        "Space": {
+                                            "DefaultViewport": 0,
+                                            "Dimensions": [
+                                                {
+                                                    "Max": 100,
+                                                    "Min": -100,
+                                                    "Name": "x",
+                                                    "ObjectName": "Space::DimensionModel",
+                                                    "Value": "none",
+                                                    "id": 0
+                                                },
+                                                {
+                                                    "Max": 100,
+                                                    "Min": -100,
+                                                    "Name": "y",
+                                                    "ObjectName": "Space::DimensionModel",
+                                                    "Value": "none",
+                                                    "id": 1
+                                                }
+                                            ],
+                                            "Precision": 5,
+                                            "Viewports": [
+                                                {
+                                                    "Name": "",
+                                                    "ObjectName": "Space::ViewportModel",
+                                                    "Precision": 0,
+                                                    "Transform": [
+                                                        1,
+                                                        0,
+                                                        0,
+                                                        0,
+                                                        1,
+                                                        0,
+                                                        0,
+                                                        0,
+                                                        1
+                                                    ],
+                                                    "id": 0,
+                                                    "xDim": "none",
+                                                    "yDim": "none"
+                                                }
+                                            ]
+                                        },
+                                        "id": 1,
+                                        "uuid": "ac4d616e-797d-4fdf-aaf0-0cb131aecc3d"
+                                    }
+                                ],
+                                "Rackes": [
+                                    {
+                                        "Metadata": {
+                                            "Color": "",
+                                            "Comment": "",
+                                            "Label": "",
+                                            "ScriptingName": "Rack.1"
+                                        },
+                                        "ObjectName": "Scenario::RackModel",
+                                        "Slots": [
+                                            {
+                                                "EditedProcess": 1,
+                                                "Height": 340,
+                                                "LayerModels": [
+                                                    {
+                                                        "ObjectName": "Space::LayerModel",
+                                                        "SharedProcessId": 1,
+                                                        "id": 1
+                                                    }
+                                                ],
+                                                "Metadata": {
+                                                    "Color": "",
+                                                    "Comment": "",
+                                                    "Label": "",
+                                                    "ScriptingName": "Slot.1"
+                                                },
+                                                "ObjectName": "Scenario::SlotModel",
+                                                "id": 1
+                                            }
+                                        ],
+                                        "SlotsPositions": [
+                                            1
+                                        ],
+                                        "id": 1
+                                    }
+                                ],
+                                "Rigidity": true,
+                                "StartDate": 1851.2419067292033,
+                                "StartState": 3,
+                                "id": 2
+                            }
+                        ],
+                        "Duration": 30000,
+                        "EndEventId": 1,
+                        "EndTimeNodeId": 1,
+                        "Events": [
+                            {
+                                "Condition": {
+                                    "Children": [
+                                    ],
+                                    "RootNode": {
+                                    }
+                                },
+                                "Date": 0,
+                                "Extent": [
+                                    0.02,
+                                    0.071476285905143627
+                                ],
+                                "Metadata": {
+                                    "Color": "Emphasis4",
+                                    "Comment": "",
+                                    "Label": "",
+                                    "ScriptingName": "Event.0"
+                                },
+                                "ObjectName": "Scenario::EventModel",
+                                "PluginsMetadata": [
+                                ],
+                                "States": [
+                                    0,
+                                    1
+                                ],
+                                "TimeNode": 0,
+                                "id": 0
+                            },
+                            {
+                                "Condition": {
+                                    "Children": [
+                                    ],
+                                    "RootNode": {
+                                    }
+                                },
+                                "Date": 30000,
+                                "Extent": [
+                                    0,
+                                    0
+                                ],
+                                "Metadata": {
+                                    "Color": "Emphasis4",
+                                    "Comment": "",
+                                    "Label": "",
+                                    "ScriptingName": "Event.1"
+                                },
+                                "ObjectName": "Scenario::EventModel",
+                                "PluginsMetadata": [
+                                ],
+                                "States": [
+                                ],
+                                "TimeNode": 1,
+                                "id": 1
+                            },
+                            {
+                                "Condition": {
+                                    "Children": [
+                                    ],
+                                    "RootNode": {
+                                    }
+                                },
+                                "Date": 1851.2419067292033,
+                                "Extent": [
+                                    0.071476285905143627,
+                                    0.11690046760187041
+                                ],
+                                "Metadata": {
+                                    "Color": "Emphasis4",
+                                    "Comment": "",
+                                    "Label": "",
+                                    "ScriptingName": "outtaste24Columbid98"
+                                },
+                                "ObjectName": "Scenario::EventModel",
+                                "PluginsMetadata": [
+                                ],
+                                "States": [
+                                    2,
+                                    3
+                                ],
+                                "TimeNode": 2,
+                                "id": 2
+                            },
+                            {
+                                "Condition": {
+                                    "Children": [
+                                    ],
+                                    "RootNode": {
+                                    }
+                                },
+                                "Date": 12567.585902020788,
+                                "Extent": [
+                                    0.11690046760187041,
+                                    0.11690046760187041
+                                ],
+                                "Metadata": {
+                                    "Color": "Emphasis4",
+                                    "Comment": "",
+                                    "Label": "",
+                                    "ScriptingName": "broadish64electric91"
+                                },
+                                "ObjectName": "Scenario::EventModel",
+                                "PluginsMetadata": [
+                                ],
+                                "States": [
+                                    4
+                                ],
+                                "TimeNode": 3,
+                                "id": 3
+                            }
+                        ],
+                        "Metadata": {
+                            "Color": "",
+                            "Comment": "",
+                            "Label": "",
+                            "ScriptingName": "Scenario.1"
+                        },
+                        "ObjectName": "Scenario",
+                        "PluginsMetadata": [
+                        ],
+                        "StartEventId": 0,
+                        "StartStateId": 0,
+                        "StartTimeNodeId": 0,
+                        "States": [
+                            {
+                                "Event": 0,
+                                "HeightPercentage": 0.02,
+                                "Messages": {
+                                    "Children": [
+                                    ],
+                                    "Following": [
+                                    ],
+                                    "Name": "",
+                                    "Previous": [
+                                    ],
+                                    "Priorities": [
+                                        1,
+                                        2,
+                                        0
+                                    ]
+                                },
+                                "Metadata": {
+                                    "Color": "",
+                                    "Comment": "",
+                                    "Label": "",
+                                    "ScriptingName": "State.0"
+                                },
+                                "NextConstraint": "none",
+                                "ObjectName": "Scenario::StateModel",
+                                "PreviousConstraint": "none",
+                                "StateProcesses": [
+                                ],
+                                "id": 0
+                            },
+                            {
+                                "Event": 0,
+                                "HeightPercentage": 0.071476285905143627,
+                                "Messages": {
+                                    "Children": [
+                                    ],
+                                    "Following": [
+                                    ],
+                                    "Name": "",
+                                    "Previous": [
+                                    ],
+                                    "Priorities": [
+                                        1,
+                                        2,
+                                        0
+                                    ]
+                                },
+                                "Metadata": {
+                                    "Color": "",
+                                    "Comment": "",
+                                    "Label": "",
+                                    "ScriptingName": "State.1"
+                                },
+                                "NextConstraint": 1,
+                                "ObjectName": "Scenario::StateModel",
+                                "PreviousConstraint": "none",
+                                "StateProcesses": [
+                                ],
+                                "id": 1
+                            },
+                            {
+                                "Event": 2,
+                                "HeightPercentage": 0.071476285905143627,
+                                "Messages": {
+                                    "Children": [
+                                    ],
+                                    "Following": [
+                                    ],
+                                    "Name": "",
+                                    "Previous": [
+                                    ],
+                                    "Priorities": [
+                                        1,
+                                        2,
+                                        0
+                                    ]
+                                },
+                                "Metadata": {
+                                    "Color": "",
+                                    "Comment": "",
+                                    "Label": "",
+                                    "ScriptingName": "State.2"
+                                },
+                                "NextConstraint": "none",
+                                "ObjectName": "Scenario::StateModel",
+                                "PreviousConstraint": 1,
+                                "StateProcesses": [
+                                ],
+                                "id": 2
+                            },
+                            {
+                                "Event": 2,
+                                "HeightPercentage": 0.11690046760187041,
+                                "Messages": {
+                                    "Children": [
+                                    ],
+                                    "Following": [
+                                    ],
+                                    "Name": "",
+                                    "Previous": [
+                                    ],
+                                    "Priorities": [
+                                        1,
+                                        2,
+                                        0
+                                    ]
+                                },
+                                "Metadata": {
+                                    "Color": "",
+                                    "Comment": "",
+                                    "Label": "",
+                                    "ScriptingName": "State.3"
+                                },
+                                "NextConstraint": 2,
+                                "ObjectName": "Scenario::StateModel",
+                                "PreviousConstraint": "none",
+                                "StateProcesses": [
+                                ],
+                                "id": 3
+                            },
+                            {
+                                "Event": 3,
+                                "HeightPercentage": 0.11690046760187041,
+                                "Messages": {
+                                    "Children": [
+                                    ],
+                                    "Following": [
+                                    ],
+                                    "Name": "",
+                                    "Previous": [
+                                    ],
+                                    "Priorities": [
+                                        1,
+                                        2,
+                                        0
+                                    ]
+                                },
+                                "Metadata": {
+                                    "Color": "",
+                                    "Comment": "",
+                                    "Label": "",
+                                    "ScriptingName": "State.4"
+                                },
+                                "NextConstraint": "none",
+                                "ObjectName": "Scenario::StateModel",
+                                "PreviousConstraint": 2,
+                                "StateProcesses": [
+                                ],
+                                "id": 4
+                            }
+                        ],
+                        "TimeNodes": [
+                            {
+                                "Date": 0,
+                                "Events": [
+                                    0
+                                ],
+                                "Extent": [
+                                    0.02,
+                                    0.071476285905143627
+                                ],
+                                "Metadata": {
+                                    "Color": "HalfDark",
+                                    "Comment": "",
+                                    "Label": "TimeNode",
+                                    "ScriptingName": "TimeNode.0"
+                                },
+                                "ObjectName": "Scenario::TimeNodeModel",
+                                "PluginsMetadata": [
+                                ],
+                                "Trigger": {
+                                    "Active": false,
+                                    "Expression": {
+                                        "Children": [
+                                        ],
+                                        "RootNode": {
+                                        }
+                                    }
+                                },
+                                "id": 0
+                            },
+                            {
+                                "Date": 30000,
+                                "Events": [
+                                    1
+                                ],
+                                "Extent": [
+                                    0,
+                                    0.10000000000000001
+                                ],
+                                "Metadata": {
+                                    "Color": "HalfDark",
+                                    "Comment": "",
+                                    "Label": "TimeNode",
+                                    "ScriptingName": "TimeNode.1"
+                                },
+                                "ObjectName": "Scenario::TimeNodeModel",
+                                "PluginsMetadata": [
+                                ],
+                                "Trigger": {
+                                    "Active": false,
+                                    "Expression": {
+                                        "Children": [
+                                        ],
+                                        "RootNode": {
+                                        }
+                                    }
+                                },
+                                "id": 1
+                            },
+                            {
+                                "Date": 1851.2419067292033,
+                                "Events": [
+                                    2
+                                ],
+                                "Extent": [
+                                    0.071476285905143627,
+                                    0.11690046760187041
+                                ],
+                                "Metadata": {
+                                    "Color": "HalfDark",
+                                    "Comment": "",
+                                    "Label": "TimeNode",
+                                    "ScriptingName": "knotweed4ruewort34"
+                                },
+                                "ObjectName": "Scenario::TimeNodeModel",
+                                "PluginsMetadata": [
+                                ],
+                                "Trigger": {
+                                    "Active": false,
+                                    "Expression": {
+                                        "Children": [
+                                        ],
+                                        "RootNode": {
+                                        }
+                                    }
+                                },
+                                "id": 2
+                            },
+                            {
+                                "Date": 12567.585902020788,
+                                "Events": [
+                                    3
+                                ],
+                                "Extent": [
+                                    0.11690046760187041,
+                                    0.11690046760187041
+                                ],
+                                "Metadata": {
+                                    "Color": "HalfDark",
+                                    "Comment": "",
+                                    "Label": "TimeNode",
+                                    "ScriptingName": "Carolyn22trainboy79"
+                                },
+                                "ObjectName": "Scenario::TimeNodeModel",
+                                "PluginsMetadata": [
+                                ],
+                                "Trigger": {
+                                    "Active": false,
+                                    "Expression": {
+                                        "Children": [
+                                        ],
+                                        "RootNode": {
+                                        }
+                                    }
+                                },
+                                "id": 3
+                            }
+                        ],
+                        "id": 1,
+                        "uuid": "de035912-5b03-49a8-bc4d-b2cba68e21d9"
+                    }
+                ],
+                "Rackes": [
+                    {
+                        "Metadata": {
+                            "Color": "",
+                            "Comment": "",
+                            "Label": "",
+                            "ScriptingName": "Rack.1"
+                        },
+                        "ObjectName": "Scenario::RackModel",
+                        "Slots": [
+                            {
+                                "EditedProcess": 1,
+                                "Height": 1500,
+                                "LayerModels": [
+                                    {
+                                        "Constraints": [
+                                            {
+                                                "ConstraintId": 1,
+                                                "ObjectName": "TemporalConstraintViewModel",
+                                                "ShownRack": "none",
+                                                "id": 1
+                                            },
+                                            {
+                                                "ConstraintId": 2,
+                                                "ObjectName": "TemporalConstraintViewModel",
+                                                "ShownRack": 1,
+                                                "id": 2
+                                            }
+                                        ],
+                                        "ObjectName": "TemporalScenarioLayer",
+                                        "SharedProcessId": 1,
+                                        "id": 1
+                                    }
+                                ],
+                                "Metadata": {
+                                    "Color": "",
+                                    "Comment": "",
+                                    "Label": "",
+                                    "ScriptingName": "Slot.1"
+                                },
+                                "ObjectName": "Scenario::SlotModel",
+                                "id": 1
+                            }
+                        ],
+                        "SlotsPositions": [
+                            1
+                        ],
+                        "id": 1
+                    }
+                ],
+                "Rigidity": false,
+                "StartDate": 0,
+                "StartState": 0,
+                "id": 0
+            },
+            "EndEvent": {
+                "Condition": {
+                    "Children": [
+                    ],
+                    "RootNode": {
+                    }
+                },
+                "Date": 30000,
+                "Extent": [
+                    0.40000000000000002,
+                    0.59999999999999998
+                ],
+                "Metadata": {
+                    "Color": "Emphasis4",
+                    "Comment": "",
+                    "Label": "",
+                    "ScriptingName": "Event.1"
+                },
+                "ObjectName": "Scenario::EventModel",
+                "PluginsMetadata": [
+                ],
+                "States": [
+                    1
+                ],
+                "TimeNode": 1,
+                "id": 1
+            },
+            "EndState": {
+                "Event": 1,
+                "HeightPercentage": 0,
+                "Messages": {
+                    "Children": [
+                    ],
+                    "Following": [
+                    ],
+                    "Name": "",
+                    "Previous": [
+                    ],
+                    "Priorities": [
+                        1,
+                        2,
+                        0
+                    ]
+                },
+                "Metadata": {
+                    "Color": "",
+                    "Comment": "",
+                    "Label": "",
+                    "ScriptingName": "State.1"
+                },
+                "NextConstraint": "none",
+                "ObjectName": "Scenario::StateModel",
+                "PreviousConstraint": 0,
+                "StateProcesses": [
+                ],
+                "id": 1
+            },
+            "EndTimeNode": {
+                "Date": 30000,
+                "Events": [
+                    1
+                ],
+                "Extent": [
+                    0.20000000000000001,
+                    0.80000000000000004
+                ],
+                "Metadata": {
+                    "Color": "HalfDark",
+                    "Comment": "",
+                    "Label": "TimeNode",
+                    "ScriptingName": "TimeNode.1"
+                },
+                "ObjectName": "Scenario::TimeNodeModel",
+                "PluginsMetadata": [
+                ],
+                "Trigger": {
+                    "Active": true,
+                    "Expression": {
+                        "Children": [
+                        ],
+                        "RootNode": {
+                        }
+                    }
+                },
+                "id": 1
+            },
+            "ObjectName": "Scenario::BaseScenario",
+            "PluginsMetadata": [
+            ],
+            "StartEvent": {
+                "Condition": {
+                    "Children": [
+                    ],
+                    "RootNode": {
+                    }
+                },
+                "Date": 0,
+                "Extent": [
+                    0.10000000000000001,
+                    0.14999999999999999
+                ],
+                "Metadata": {
+                    "Color": "Emphasis4",
+                    "Comment": "",
+                    "Label": "",
+                    "ScriptingName": "Event.0"
+                },
+                "ObjectName": "Scenario::EventModel",
+                "PluginsMetadata": [
+                ],
+                "States": [
+                    0
+                ],
+                "TimeNode": 0,
+                "id": 0
+            },
+            "StartState": {
+                "Event": 0,
+                "HeightPercentage": 0,
+                "Messages": {
+                    "Children": [
+                    ],
+                    "Following": [
+                    ],
+                    "Name": "",
+                    "Previous": [
+                    ],
+                    "Priorities": [
+                        1,
+                        2,
+                        0
+                    ]
+                },
+                "Metadata": {
+                    "Color": "",
+                    "Comment": "",
+                    "Label": "",
+                    "ScriptingName": "State.0"
+                },
+                "NextConstraint": 0,
+                "ObjectName": "Scenario::StateModel",
+                "PreviousConstraint": "none",
+                "StateProcesses": [
+                ],
+                "id": 0
+            },
+            "StartTimeNode": {
+                "Date": 0,
+                "Events": [
+                    0
+                ],
+                "Extent": [
+                    0.20000000000000001,
+                    0.80000000000000004
+                ],
+                "Metadata": {
+                    "Color": "HalfDark",
+                    "Comment": "",
+                    "Label": "TimeNode",
+                    "ScriptingName": "TimeNode.0"
+                },
+                "ObjectName": "Scenario::TimeNodeModel",
+                "PluginsMetadata": [
+                ],
+                "Trigger": {
+                    "Active": false,
+                    "Expression": {
+                        "Children": [
+                        ],
+                        "RootNode": {
+                        }
+                    }
+                },
+                "id": 0
+            },
+            "id": 0
+        },
+        "DocumentId": -675656750,
+        "ObjectName": "Scenario::ScenarioDocumentModel",
+        "id": 1
+    },
+    "Plugins": {
+        "Explorer::DeviceDocumentPlugin": {
+            "Children": [
+            ],
+            "RootNode": {
+            },
+            "uuid": "6e610e1f-9de2-4c36-90dd-0ef570002a21"
+        }
+    }
+}
